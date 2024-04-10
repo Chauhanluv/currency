@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+.container{
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding:20px;
+    height: 400px;
+}
+h2{
+    margin: auto;
+}
+.container1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 20px;
+    height: 170px;
+    width: 18vw;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container1 i{
+    font-size: 30px;
+    margin: 1.7rem 2.5rem;
+    
+}
+.container1 img{
+    border-radius: 20px;
+}
+
+p{
+    font-size:20px ;
+}
+
+
+
+#input1{
+    margin: 1rem 0rem;
+    padding: 20px;
+    border-radius: 10px;
+    width: 18vw;
+    height: 5px;
+}
+#input2{
+    margin: 1rem 0rem;
+    padding: 20px;
+    border-radius: 10px;
+    width: 18vw;
+    height: 5px;
+}
+
+#select1 {
+   
+    font-size: 15px;
+   border-radius: 7px;
+   height: 3vh;
+   width: 5vw;
+}
+
+#select2 {
+    border-radius: 7px;
+   
+    font-size: 15px;
+   
+    height: 3vh;
+    width: 5vw;
+}
+
+.container2{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15vh;
+    width: 18vw;
+
+}
+.btn{
+    font-size: 17px;
+    padding: 2px;
+    border-radius: 5px;
+    width: 21vw;
+    height: 12vh;
+    color: white;
+    background-color: purple;
+}
