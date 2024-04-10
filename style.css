@@ -105,3 +105,40 @@ p{
     color: white;
     background-color: purple;
 }
+@media(max-width:650px){
+   
+    .container{
+        margin: auto;
+        height: 450px;
+    }
+    h2{
+        margin: auto;
+        font-size: 1.8rem;
+    }
+    #input1{
+        width: 65vw;
+    }
+    .container1{
+        margin: 2px 8px;
+        width: 66vw;
+    }
+    #select1{
+        width: 20vw;
+    }
+    #select2{
+        width: 20vw;
+    }
+    #input2 {
+      
+        width: 68vw;
+       
+    }
+    .container2{
+        width: 75vw;
+    }
+    .btn{
+        margin: auto;
+        width: 55vw;
+        height: 32px;
+    }
+}
